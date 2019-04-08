@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://lukewreagan.github.io/carpet"
+baseurl = "https://lukewreagan.github.io/carpetclean"
 languageCode = "en-us"
 title = "Agency"
 theme = "hugo-agency-theme"
