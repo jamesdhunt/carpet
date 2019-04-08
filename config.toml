@@ -65,13 +65,6 @@ googleAnalytics = ""
     #  weight = 10
 
     # postpended links
-    [[menu.postpend]]
-      name = "208-215-0449"
-      weight = 10
-
-    [[menu.postpend]]
-      name = "JamesHunt@gmail.com"
-      weight = 10
 
 
   # Hero section
@@ -87,7 +80,7 @@ googleAnalytics = ""
   [params.services]
     enable = true
     title = "Services"
-    subtitle = "8:00AM-8:00PM Monday-Sunday"
+    subtitle = "8:00AM-8:00PM Monday-Sunday<br><br>JamesHunt@gmail.com<br><br>208-215-0449"
 
     [[params.services.row]]
 
