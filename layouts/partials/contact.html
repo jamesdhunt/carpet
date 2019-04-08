@@ -25,7 +25,7 @@
           {{- if $contact.netlify -}}
             " netlify
           {{- else -}}
-            " action="{{- $contact.postURL | default (printf "//formspree.io/lukewreagan@hotmail.com" (or $contact.email .Site.Params.email)) -}}"
+            " action="{{- $contact.postURL | default (printf "https://formspree.io/lukewreagan@hotmail.com" (or $contact.email .Site.Params.email)) -}}"
           {{- end -}}>
 
           <fieldset>
