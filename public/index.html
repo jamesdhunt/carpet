@@ -256,34 +256,6 @@
     <div class="row flexbox">
 
       
-        <div class="col-md-3 col-sm-6 col">
-          
-          
-            <img src="https://jamesdhunt.github.io/img/logos/soap.png" class="img-responsive img-centered" alt="">
-          
-        </div>
-      
-        <div class="col-md-3 col-sm-6 col">
-          
-          
-            <img src="https://jamesdhunt.github.io/img/logos/soap.png" class="img-responsive img-centered" alt="">
-          
-        </div>
-      
-        <div class="col-md-3 col-sm-6 col">
-          
-          
-            <img src="https://jamesdhunt.github.io/img/logos/soap.png" class="img-responsive img-centered" alt="">
-          
-        </div>
-      
-        <div class="col-md-3 col-sm-6 col">
-          
-          
-            <img src="https://jamesdhunt.github.io/img/logos/soap.png" class="img-responsive img-centered" alt="">
-          
-        </div>
-      
 
     </div>
   </div>
@@ -315,7 +287,7 @@
         <form
           method="POST"
           name="sentMessage"
-          id="contactForm" action="//formspree.io/lukewreagan@hotmail.com">
+          id="contactForm" action="//formspree.io/lukewreagan@hotmail.com%25!%28EXTRA%20string=lukewreagan@hotmail.com%29">
 
           <fieldset>
             <div class="row">
@@ -368,9 +340,20 @@
                   
                 </div><br />
                 
-                  <button type="submit" value="Submit" class="btn btn-xl">
-                    Send message
-                  </button>
+                  <div class="g-recaptcha-container">
+                    <span class="g-recaptcha-filler"></span>
+                    <button
+                      type="submit"
+                      value="Submit"
+                      class="g-recaptcha btn btn-xl"
+                      data-sitekey=""
+                      data-size="invisible"
+                      data-badge="inline"
+                      data-callback="onContactCaptcha">
+                      Send message
+                    </button>
+                    <span class="filler"></span>
+                  </div>
                 
               </div>
             </div>
@@ -404,6 +387,8 @@
 
 
 
+
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 
 
